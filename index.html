@@ -6,15 +6,37 @@
 </head>
 
 <body>
+	<div class="navbar">
+	<ul>
+		<li><a href="https://mail.google.com">Gmail</a></li>
+		<li><a href="#">Images</a></li>
+		<li><a href="#"><img id="apps" alt="apps" src="images/apps.png"/></a></li>
+		<li><a id="signin" href="#">Sign in</a></li>
+	</ul>
+	</div>
+
 	<div class="searchform">
 		<img alt="google logo" src="images/logo.png"/>
 
 		<form>
-			<input type="text" name="searchbar">
+			<input id="searchbar" type="text" name="searchbar">
 			<br>
-			<input type="submit" value="Google Search">
-			<input type="submit" value="I'm Feeling Lucky">
+			<input id="search" class="searchbutton" type="submit" value="Google Search">
+			<input id ="luck" class="searchbutton" type="submit" value="I'm Feeling Lucky">
 		</form>
+	</div>
+
+	<div class="footer">
+		<ul>
+		<li><a href="https://eff.org">Advertising</a></li>
+		<li><a href="https://fsf.org">Business</a></li>
+		<li><a href="https://www.theodinproject.com/courses/web-development-101">About</a></li>
+		<div class="rightfooter">
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Settings</a></li>
+		</div>
+	</ul>
 	</div>
 </body>
 </html>
