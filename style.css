@@ -15,7 +15,11 @@
 
 #searchbar {
 	margin: 20px;
-	width: 400px;
+	width: 440px;
+	height: 40px;
+	border:none;
+	background-color: #FFFFFF;
+	box-shadow: 1px 2px 2px 1px #BBBBBB;
 }
 
 .searchbutton {
@@ -28,9 +32,6 @@
 	color: #757575;
 }
 
-.searchbutton:hover {
-	box-shadow: 2px;
-}
 
 #signin{
 	background-color: #458EF2;
